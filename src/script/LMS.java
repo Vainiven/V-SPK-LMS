@@ -162,7 +162,7 @@ public class LMS extends Script implements KeyListener, SimplePaintable, Looping
 	}
 
 	private void fight(SimplePlayer target) {
-		if (!target.getName().equals("FIB Rizz")) {
+		if (!target.getName().equals("YOURNAME")) {
 			if (target.getOverheadIcon() == HeadIcon.MAGIC || target.getOverheadIcon() == HeadIcon.MELEE) {
 				equipGear(rangeSet);
 				enablePrayer(Prayers.RIGOUR);
